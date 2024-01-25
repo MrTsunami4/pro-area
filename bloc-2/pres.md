@@ -13,6 +13,8 @@ _paginate: false
 
 ## Veille technologique
 
+---
+
 ### Etude comparative
 
 - Utilisation de TypeScript
@@ -66,9 +68,11 @@ _paginate: false
 
 ## Prototypage
 
+---
+
 ### Prototypes
 
-[METTRE SCREEN ICI]
+- Figma
 
 ---
 
@@ -158,18 +162,6 @@ CREATE TABLE "Action" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "name" TEXT NOT NULL,
     "user_id" TEXT NOT NULL
-);
-```
-
----
-
-```sql
-CREATE TABLE "Reaction" (
-    "id" TEXT NOT NULL PRIMARY KEY,
-    "name" TEXT NOT NULL,
-    "action_id" TEXT NOT NULL,
-    "user_id" TEXT NOT NULL,
-    CONSTRAINT "Reaction_action_id_fkey" FOREIGN KEY ("action_id") REFERENCES "Action" ("id")
 );
 ```
 
