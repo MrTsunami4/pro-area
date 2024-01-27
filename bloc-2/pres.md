@@ -5,6 +5,7 @@ footer: "Epitech - 2024"
 theme: uncover
 paginate: true
 _paginate: false
+size: 16:9
 ---
 
 # Concevoir une architecture logicielle
@@ -136,6 +137,8 @@ export const usernameSchema = z.object({
 
 ## Définition des modèles de données
 
+---
+
 ### Persistance des données
 
 - Sqlite
@@ -148,6 +151,8 @@ export const usernameSchema = z.object({
 
   - Avantages: Facile à utiliser, pas de serveur à installer
   - Inconvénients: Pas de support pour les types, pas de support pour les relations
+
+---
 
 - Postgres
   - Avantages: Support des types, support des relations
